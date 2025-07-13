@@ -27,8 +27,8 @@
                 </div>
                 <hr>
                 <div class="card-body">
-                    <h5 class="card-title">COMPLETED TASKS</h5>
-                    <ul class="list-group">
+                    <h5 class="card-title">TASKS</h5>
+                    <ul id="taskList" class="list-group">
                         <!--
                         <li class="list-group-item d-flex justify-content-between">Todo 1
                             <a href="#" class="delete-item">
@@ -37,7 +37,12 @@
                         </li>
                     -->
                     </ul>
-                    <input class="btn btn-primary" type="reset" value="Clear all tasks">
+                    <input id="clearAll" class="btn btn-primary mt-2" type="reset" value="Clear all tasks">
+                </div>
+                <hr>
+                <div class="card-body">
+                    <h5 class="card-title"> COMPLETED TASKS</h5>
+                    <ul id="completedList" class="list-group"></ul>
                 </div>
             </div>
         </div>
