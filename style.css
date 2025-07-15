@@ -1,0 +1,64 @@
+    body {
+        background: #e9f2fb;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #003366;
+    }
+
+    .card {
+        border: 1px solid #cce0ff;
+        box-shadow: 0 4px 8px rgba(0, 51, 102, 0.1);
+        border-radius: 15px;
+        background-color: #ffffff;
+    }
+
+    .card-header {
+        background-color: #007bff;
+        color: white;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        text-align: center;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #todoName {
+        border: 1px solid #b3d7ff;
+        border-radius: 8px;
+    }
+
+    #addButton,
+    #clearAll {
+        background-color: #007bff;
+        border: none;
+        border-radius: 8px;
+        padding: 6px 20px;
+    }
+
+    #addButton:hover,
+    #clearAll:hover {
+        background-color: #0056b3;
+    }
+
+    ul.list-group li {
+        background-color: #f0f8ff;
+        border-color: #b3d7ff;
+        border-radius: 6px;
+        margin-bottom: 5px;
+        color: #003366;
+    }
+
+    .delete-item i {
+        color: #ff4d4d;
+        transition: color 0.3s ease;
+    }
+
+    .delete-item i:hover {
+        color: #cc0000;
+    }
+
+    h5.card-title {
+        color: #0056b3;
+    }
