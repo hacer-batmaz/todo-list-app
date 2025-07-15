@@ -17,7 +17,7 @@ In this project, I developed a simple web application where users can add and tr
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ---
 
